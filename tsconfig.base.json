@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "moduleResolution": "node",
+        "declaration": true,
+        "target": "es5",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "importHelpers": true,
+        "lib": [
+            "DOM",
+            "ES5",
+            "ScriptHost",
+            "ES2015.Promise"
+        ]
+    },
+    "files": [
+        "src/index.ts"
+    ]
+}
+
